@@ -1,3 +1,74 @@
 body {
-  background: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --header-link-color: #2196f3;
+}
+.header-link {
+  color: var(--header-link-color);
+}
+.header-item-Портфолио {
+  color: var(--header-link-color);
+}
+.footer-link {
+  color: var(--header-link-color);
+}
+:root {
+  --header-item-Студия-one-color: #212121;
+}
+.header-item-Студия-one {
+  color: var(--header-item-Студия-one-color);
+}
+.header-item-Контакты {
+  color: var(--header-item-Студия-one-color);
+}
+.main-item-Веб-сайты {
+  color: var(--header-item-Студия-one-color);
+}
+.main-item-Приложения {
+  color: var(--header-item-Студия-one-color);
+}
+.main-item-Дизайн {
+  color: var(--header-item-Студия-one-color);
+}
+.main-item-Маркетинг {
+  color: var(--header-item-Студия-one-color);
+}
+.main-title-nav-Технокряк {
+  color: var(--header-item-Студия-one-color);
+}
+.main-title-nav-Постер New Orlean vs Golden Star {
+  color: var(--header-item-Студия-one-color);
+}
+.main-title-nav-Ресторан Seafood {
+  color: var(--header-item-Студия-one-color);
+}
+.main-title-nav-Проект Prime {
+  color: var(--header-item-Студия-one-color);
+}
+.main-title-nav-Проект Boxes {
+  color: var(--header-item-Студия-one-color);
+}
+.main-title-nav-Inspiration has no Borders {
+  color: var(--header-item-Студия-one-color);
+}
+.main-title-nav-Издание Limited Edition {
+  color: var(--header-item-Студия-one-color);
+}
+.main-title-nav-Проект LAB {
+  color: var(--header-item-Студия-one-color);
+}
+.main-title-nav-Growing Business {
+  color: var(--header-item-Студия-one-color);
+}
+:root {
+  --header-item-mail-color: #757575;
+}
+.header-item-mail {
+  color: var(--header-item-mail-color);
+}
+.header-item-phon {
+  color: var(--header-item-mail-color);
+}
+:root {
 }
