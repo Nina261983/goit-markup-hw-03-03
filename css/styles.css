@@ -132,9 +132,6 @@ body {
   background: #2196f3;
   cursor: pointer;
 }
-.main-button:hover {
-  color: #ffff00;
-}
 .main-btn-text-one {
   position: absolute;
   width: 29px;
