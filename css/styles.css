@@ -1,74 +1,302 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "roboto", sans-serif;
+  position: relative;
+  width: 1600px;
+  height: 1880px;
+  background: #ffffff;
 }
-:root {
-  --header-link-color: #2196f3;
+.header {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
 }
-.header-link {
-  color: var(--header-link-color);
+.header-logo-link {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
-.header-item-Портфолио {
-  color: var(--header-link-color);
+
+.main {
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 174px;
 }
-.footer-link {
-  color: var(--header-link-color);
+.header-link-one {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
-:root {
-  --header-item-Студия-one-color: #212121;
+.header-link-two {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
 }
-.header-item-Студия-one {
-  color: var(--header-item-Студия-one-color);
+
+.header-text {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
 }
-.header-item-Контакты {
-  color: var(--header-item-Студия-one-color);
+.header-links-contacts .header-link-mail:hover,
+.header-links-contacts .header-link-mail:focus {
+  color: #ff00ff;
 }
-.main-item-Веб-сайты {
-  color: var(--header-item-Студия-one-color);
+.header-links-contacts .header-link-phon:hover,
+.header-links-contacts .header-link-phon:focus {
+  color: #800080;
 }
-.main-item-Приложения {
-  color: var(--header-item-Студия-one-color);
+
+.header-link-mail {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
-.main-item-Дизайн {
-  color: var(--header-item-Студия-one-color);
+.header-link-phon {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
-.main-item-Маркетинг {
-  color: var(--header-item-Студия-one-color);
+.section-main-portfolio {
+  position: absolute;
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 174px;
 }
-.main-title-nav-Технокряк {
-  color: var(--header-item-Студия-one-color);
+
+.main-button {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+  background: #2196f3;
+  cursor: pointer;
 }
-.main-title-nav-Постер New Orlean vs Golden Star {
-  color: var(--header-item-Студия-one-color);
+.main-button:hover {
+  color: #ffff00;
 }
-.main-title-nav-Ресторан Seafood {
-  color: var(--header-item-Студия-one-color);
+.main-btn-text-one {
+  position: absolute;
+  width: 29px;
+  height: 26px;
+  left: 517px;
+  top: 180px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
-.main-title-nav-Проект Prime {
-  color: var(--header-item-Студия-one-color);
+
+.main-button-one {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.main-title-nav-Проект Boxes {
-  color: var(--header-item-Студия-one-color);
+.main-button-one:hover {
+  color: #ffff00;
 }
-.main-title-nav-Inspiration has no Borders {
-  color: var(--header-item-Студия-one-color);
+..main-item-two {
+  position: absolute;
+  width: 101px;
+  height: 26px;
+  left: 734px;
+  top: 180px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.main-title-nav-Издание Limited Edition {
-  color: var(--header-item-Студия-one-color);
+.main-item-three {
+  position: absolute;
+  width: 59px;
+  height: 26px;
+  left: 887px;
+  top: 180px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.main-title-nav-Проект LAB {
-  color: var(--header-item-Студия-one-color);
+.main-item-four {
+  position: absolute;
+  width: 86px;
+  height: 26px;
+  left: 998px;
+  top: 180px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.main-title-nav-Growing Business {
-  color: var(--header-item-Студия-one-color);
+.container-bg-one {
+  position: absolute;
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 262px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
-:root {
-  --header-item-mail-color: #757575;
+.main-nav-img-one {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 262px;
+  background: url(.jpg);
 }
-.header-item-mail {
-  color: var(--header-item-mail-color);
+
+.main-title-nav-one {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 576px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
 }
-.header-item-phon {
-  color: var(--header-item-mail-color);
+.main-text-nav-text-one {
+  position: absolute;
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 616px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: #757575;
 }
-:root {
+.main-nav-img-two {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 262px;
+  background: url(.jpg);
+}
+.main-title-nav-two {
+  position: absolute;
+  width: 322px;
+  height: 36px;
+  left: 639px;
+  top: 576px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.footer-logo {
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 1688px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
