@@ -1,18 +1,22 @@
-body {
-  font-family: "roboto", sans-serif;
+body
+ {
+  font-family: "roboto", Raleway, sans-serif;
   position: relative;
   width: 1600px;
   height: 1880px;
   background: #ffffff;
 }
-.header {
+.header
+ {
   position: absolute;
   width: 1600px;
   height: 80px;
   left: 0px;
   top: 0px;
+  background: #FFFFFF
 }
-.header-logo-link {
+.header-logo-link 
+{
   position: absolute;
   width: 145px;
   height: 31px;
@@ -22,20 +26,23 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: #2196F3;
+  
 }
 
-.main {
+.main 
+{
   position: absolute;
   width: 1170px;
   height: 1360px;
   left: 215px;
   top: 174px;
 }
-.header-link-one {
+.header-link-one
+ {
   position: absolute;
   width: 49px;
   height: 16px;
@@ -49,7 +56,8 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.header-link-two {
+.header-link-two
+ {
   position: absolute;
   width: 77px;
   height: 16px;
@@ -64,7 +72,8 @@ body {
   color: #2196f3;
 }
 
-.header-text {
+.header-text 
+{
   position: absolute;
   width: 68px;
   height: 16px;
@@ -87,7 +96,8 @@ body {
   color: #800080;
 }
 
-.header-link-mail {
+.header-link-mail 
+{
   position: absolute;
   width: 135px;
   height: 16px;
@@ -101,7 +111,8 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.header-link-phon {
+.header-link-phon 
+{
   position: absolute;
   width: 122px;
   height: 16px;
@@ -115,7 +126,8 @@ body {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.section-main-portfolio {
+.section-main-portfolio 
+{
   position: absolute;
   width: 1170px;
   height: 1360px;
@@ -123,7 +135,8 @@ body {
   top: 174px;
 }
 
-.main-button {
+.main-button
+ {
   position: absolute;
   width: 73px;
   height: 38px;
@@ -132,24 +145,29 @@ body {
   background: #2196f3;
   cursor: pointer;
 }
-.main-btn-text-one {
+.main-button :hover 
+{
+color: #ffff00;
+}
+.main-btn-text-one 
+{
   position: absolute;
-  width: 29px;
+  width: 84px;
   height: 26px;
-  left: 517px;
+  left: 598px;
   top: 180px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
-  color: #ffffff;
-}
-
-.main-button-one {
+    color: #212121;
+  }
+.main-button-one
+ {
   position: absolute;
   width: 128px;
   height: 38px;
@@ -162,7 +180,8 @@ body {
 .main-button-one:hover {
   color: #ffff00;
 }
-..main-item-two {
+.main-btn-text-two
+ {
   position: absolute;
   width: 101px;
   height: 26px;
@@ -178,38 +197,100 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.main-item-three {
+.main-button-two 
+{
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  background: #F5F4FA ;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.main-button-two:hover {
+  color: #ffff00;
+}
+
+.main-btn-text-three 
+{
   position: absolute;
   width: 59px;
   height: 26px;
   left: 887px;
   top: 180px;
+  
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 26px;
   /* identical to box height, or 162% */
+  
   text-align: center;
   letter-spacing: 0.03em;
+  
   color: #212121;
+  
 }
-.main-item-four {
+.main-button-three
+{
+  position: absolute;
+width: 103px;
+height: 38px;
+left: 865px;
+top: 174px;
+background: #F5F4FA;
+ border-radius: 4px;
+ cursor: pointer;
+}
+.main-button-three:hover
+{
+  color: #ffff00;
+  }
+.main-btn-text-four 
+{
   position: absolute;
   width: 86px;
   height: 26px;
   left: 998px;
   top: 180px;
+  
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 26px;
   /* identical to box height, or 162% */
+  
   text-align: center;
   letter-spacing: 0.03em;
+  
   color: #212121;
 }
+.main-button-four{
+  position: absolute;
+width: 130px;
+height: 38px;
+left: 976px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+.main-button-four:hover{
+  color: #ffff00;
+}
+
+
+
+
+
+
+
+
+
+
+
 .container-bg-one {
   position: absolute;
   width: 370px;
