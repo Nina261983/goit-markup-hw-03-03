@@ -1,30 +1,14 @@
-.body {
-  font-family: Roboto, Raleway, sans-serif;
-  background: var(--container-item-bg-color);
-}
 :root {
   --feature-title-color: #212121;
   --feature-text-color: #757575;
   --container-item-bg-color: #ffffff;
+  --button-color: #2196f3;
+  --section-bg-color: #2f303a;
+  --main-color: #f5f4fa;
 }
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-ul {
-  margin: 0;
-  padding: 0;
-}
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
+body {
+  font-family: Roboto, sans-serif;
+  background: var(--container-item-bg-color);
 }
 
 li {
@@ -35,25 +19,12 @@ a {
 }
 
 .header {
-  background: #ffffff;
-}
-
-.header-list {
-  display: flex;
-}
-.nav {
-  display: flex;
-  align-items: center;
-  margin: 50px;
-}
-.header-container {
-  display: flex;
-  align-items: center;
+  background: var(--container-item-bg-color);
 }
 
 .logo {
-  font-style: normal;
-  font-weight: bold;
+  font-family: Raleway;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -70,15 +41,10 @@ a {
 
 .navigation-link:hover,
 .navigation-link:focus {
-  color: #2196f3;
-}
-
-.header-connection {
-  margin-left: auto;
+  color: var(--button-color);
 }
 
 .contact-item {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 0.87;
@@ -87,10 +53,9 @@ a {
   margin-left: 43px;
 }
 .section-bg {
-  background: #2f303a;
+  background: var(--section-bg-color);
 }
 .big-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 0.73;
@@ -100,10 +65,10 @@ a {
   color: var(--container-item-bg-color);
 }
 .bg-button:hover {
-  color: #ffffff;
+  color: var(--container-item-bg-color);
 }
 .bg-button {
-  background: #2196f3;
+  background: var(--button-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -113,8 +78,7 @@ a {
   padding-bottom: 10px;
 }
 .bg-text {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 0.53px;
   display: flex;
@@ -141,8 +105,7 @@ a {
 }
 
 .feature-title {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -150,8 +113,7 @@ a {
   color: var(--feature-title-color);
 }
 .title {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -160,12 +122,11 @@ a {
 }
 
 .pro-section {
-  background: #f5f4fa;
+  background: var(--main-color);
 }
 
 .pro-title-team {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -183,7 +144,6 @@ a {
   border-radius: 0px;
 }
 .pro-title {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -199,15 +159,15 @@ a {
   color: var(--feature-text-color);
 }
 .main-item:first-child .main-button {
-  background-color: #2196f3;
+  background-color: var(--button-color);
 }
 
 .main-button:hover {
-  color: #2196f3;
+  color: var(--button-color);
 }
 
 .main-button {
-  background: #f5f4fa;
+  background: var(--main-color);
   border-radius: 4px;
   cursor: pointer;
   padding: left 22px;
@@ -227,8 +187,7 @@ a {
 }
 
 .main-title {
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -236,27 +195,31 @@ a {
 }
 
 .main-text {
-  font-weight: normal;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--feature-text-color);
 }
 .footer {
-  background: #2f303a;
+  background: var(--section-bg-color);
 }
 
 .footer-item-address {
   font-style: normal;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--container-item-bg-color);
 }
-.footer-item {
-  font-style: normal;
+
+.footer-link-mail {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-link-tel {
   color: rgba(255, 255, 255, 0.6);
 }
