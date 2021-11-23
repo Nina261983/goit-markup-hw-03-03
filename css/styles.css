@@ -10,12 +10,8 @@ body {
   font-family: Roboto, sans-serif;
   background: var(--container-item-bg-color);
 }
-
-li {
+.list {
   list-style: none;
-}
-a {
-  text-decoration: none;
 }
 
 .header {
@@ -31,7 +27,7 @@ a {
  
 }
 
-.navigation-item {
+.navigation-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -39,45 +35,57 @@ a {
   color: var(--feature-title-color);
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
-  color: var(--button-color);
-}
+a.navigation-link:hover{color: var(--button-color);}
+a.navigation-link:focus{color: var(--button-color);}
+ 
 
-.contact-item {
+
+.contact-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.87;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--feature-text-color);
  
 }
+a.contact-link:hover{color: var(--button-color);}
+a.contact-link:focus{color: var(--button-color);}
+
 .section-bg {
   background: var(--section-bg-color);
 }
 .big-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 0.73;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--container-item-bg-color);
 }
 .bg-button:hover {
-  color: var(--container-item-bg-color);
+  background-color: var(--button-color);
+  color: #ffffff;
 }
 .bg-button {
-  background: var(--button-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 00.06em;
+  background:var(--main-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  color: var(--feature-title-color);
   cursor: pointer;
  
 }
 .bg-text {
   font-weight: 700;
   font-size: 16px;
-  line-height: 0.53px;
+  line-height: 1.36px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -91,14 +99,19 @@ a {
   letter-spacing: 0.03em;
   color: var(--feature-text-color);
 }
-.box- {
-  background: url(.jpg);
-  mix-blend-mode: normal;
+.pro-section{
+  background-color: var(--main-color);
 }
+
 
 .pro-img {
   background: url(.jpg);
-  border-radius: 0px;
+ border-radius: 0px;
+}
+.pro-list {
+  background: var(--container-item-bg-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .feature-title {
@@ -123,23 +136,21 @@ a {
 }
 
 .pro-title-team {
-  font-weight: 700;
+ 
+  font-weight: 400px;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--feature-title-color);
 }
-.pro-item-box {
+.pro-item {
   background: var(--container-item-bg);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.pro-item {
-  background: url(.jpg);
-  border-radius: 0px;
-}
+
 .pro-title {
   font-weight: 500;
   font-size: 16px;
@@ -149,33 +160,31 @@ a {
   color: var(--feature-title-color);
 }
 .pro-text {
+  font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--feature-text-color);
 }
-.main-item:first-child .main-button {
-  background-color: var(--button-color);
-}
 
-.main-button:hover {
-  color: var(--button-color);
-}
 
-.main-button {
+.main button {
+  font-weight: 500;
   background: var(--main-color);
   border-radius: 4px;
+  color: var(--feature-title-color);
   cursor: pointer;
-  padding: left 22px;
-  padding: right 22px;
-  padding: top 6px;
-  padding: bottom 6px;
 }
+.main button:hover{
+  background-color: var(--button-color);
+  color: var(--container-item-bg-color);
+}
+
 
 .item-bg {
   background: var(--container-item-bg-color);
-  border: 1px solid #eeeeee;
+  border: 1px solid #EEEEEE;
   box-sizing: border-box;
 }
 
@@ -184,7 +193,7 @@ a {
 }
 
 .main-title {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -211,12 +220,11 @@ a {
   color: var(--container-item-bg-color);
 }
 
-.footer-link-mail {
+.footer-link {
+  font-style: normal;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.71px;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer-link-tel {
   color: rgba(255, 255, 255, 0.6);
 }
