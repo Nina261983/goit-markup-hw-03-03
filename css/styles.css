@@ -5,6 +5,7 @@
   --button-color: #2196f3;
   --section-bg-color: #2f303a;
   --main-color: #f5f4fa;
+  --body-color: #E5E5E5;
 }
 body {
   font-family: Roboto, sans-serif;
@@ -13,13 +14,24 @@ body {
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
 
-.header {
+.header-link {
   background: var(--container-item-bg-color);
+}
+.logo-studio {
+  color: var(--feature-title-color);
+}
+.logo-studio-link {
+  color: var(--container-item-bg-color);
 }
 
 .logo {
-  font-family: Raleway;
+  text-decoration: none;
+  color: var(--button-color);
+  font-family: Raleway,sans-serif; 
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -28,6 +40,7 @@ body {
 }
 
 .navigation-link {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -41,6 +54,7 @@ a.navigation-link:focus{color: var(--button-color);}
 
 
 .contact-link {
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -63,34 +77,25 @@ a.contact-link:focus{color: var(--button-color);}
   text-transform: uppercase;
   color: var(--container-item-bg-color);
 }
-.bg-button:hover {
+.btn:hover {
   background-color: var(--button-color);
-  color: #ffffff;
-}
-.bg-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 00.06em;
-  background:var(--main-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  color: var(--feature-title-color);
-  cursor: pointer;
  
 }
-.bg-text {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.36px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--container-item-bg-color);
+
+ 
+
+.btn {
+font-weight: 400;
+color:var(--container-item-bg-color);
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+background-color: var(--button-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
 
 .feature-text {
@@ -106,7 +111,7 @@ a.contact-link:focus{color: var(--button-color);}
 
 .pro-img {
   background: url(.jpg);
- border-radius: 0px;
+  border-radius: 0px;
 }
 .pro-list {
   background: var(--container-item-bg-color);
@@ -130,14 +135,21 @@ a.contact-link:focus{color: var(--button-color);}
   letter-spacing: 0.03em;
   color: var(--feature-title-color);
 }
+.box-one {
+  background: url(.jpg);
+  mix-blend-mode: normal;
+}
+.box {
+  background: url(.jpg);
+}
 
 .pro-section {
   background: var(--main-color);
 }
 
 .pro-title-team {
- 
-  font-weight: 400px;
+
+  font-weight: 700px;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -152,7 +164,8 @@ a.contact-link:focus{color: var(--button-color);}
 }
 
 .pro-title {
-  font-weight: 500;
+  
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -160,7 +173,7 @@ a.contact-link:focus{color: var(--button-color);}
   color: var(--feature-title-color);
 }
 .pro-text {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -176,7 +189,7 @@ a.contact-link:focus{color: var(--button-color);}
   color: var(--feature-title-color);
   cursor: pointer;
 }
-.main button:hover{
+.main-button:hover {
   background-color: var(--button-color);
   color: var(--container-item-bg-color);
 }
@@ -193,7 +206,7 @@ a.contact-link:focus{color: var(--button-color);}
 }
 
 .main-title {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -208,12 +221,12 @@ a.contact-link:focus{color: var(--button-color);}
   color: var(--feature-text-color);
 }
 .footer {
-  background: var(--section-bg-color);
+ background: var(--section-bg-color);
 }
 
 .footer-item-address {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -221,8 +234,9 @@ a.contact-link:focus{color: var(--button-color);}
 }
 
 .footer-link {
+  text-decoration: none;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
