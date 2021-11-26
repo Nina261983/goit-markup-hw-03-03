@@ -17,9 +17,16 @@ body {
 .link {
   text-decoration: none;
 }
+.nav { 
+ height: 80px;
+ 
+}
+
 
 .header-link {
   background: var(--container-item-bg-color);
+ 
+  
 }
 .logo-studio {
   color: var(--feature-title-color);
@@ -67,6 +74,7 @@ a.contact-link:focus{color: var(--button-color);}
 
 .section-bg {
   background: var(--section-bg-color);
+  height: 600px;
 }
 .big-title {
   font-weight: 900;
@@ -105,6 +113,9 @@ cursor: pointer;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.features-section {
+height: 289px;
+}
 
 .feature-title {
   font-weight: 700;
@@ -120,6 +131,9 @@ cursor: pointer;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--feature-text-color);
+}
+.work-section{
+  height: 386px;
 }
 .title {
   font-weight: 700;
@@ -139,6 +153,9 @@ cursor: pointer;
 
 .pro-section {
   background: var(--main-color);
+}
+.pro-section{
+  height: 648px;
 }
 
 .pro-title-team {
@@ -217,6 +234,9 @@ cursor: pointer;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--feature-text-color);
+}
+.footer{
+  height: 195px;
 }
 .footer {
  background: var(--section-bg-color);
