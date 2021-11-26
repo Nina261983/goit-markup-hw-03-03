@@ -8,6 +8,7 @@
   --body-color: #E5E5E5;
 }
 body {
+
   font-family: Roboto, sans-serif;
   background: var(--container-item-bg-color);
 }
@@ -17,10 +18,7 @@ body {
 .link {
   text-decoration: none;
 }
-.nav { 
- height: 80px;
- 
-}
+
 
 
 .header-link {
@@ -74,7 +72,7 @@ a.contact-link:focus{color: var(--button-color);}
 
 .section-bg {
   background: var(--section-bg-color);
-  height: 600px;
+
 }
 .big-title {
   font-weight: 900;
@@ -113,9 +111,7 @@ cursor: pointer;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.features-section {
-height: 289px;
-}
+
 
 .feature-title {
   font-weight: 700;
@@ -132,9 +128,7 @@ height: 289px;
   letter-spacing: 0.03em;
   color: var(--feature-text-color);
 }
-.work-section{
-  height: 386px;
-}
+
 .title {
   font-weight: 700;
   font-size: 36px;
@@ -154,9 +148,7 @@ height: 289px;
 .pro-section {
   background: var(--main-color);
 }
-.pro-section{
-  height: 648px;
-}
+
 
 .pro-title-team {
 
@@ -235,9 +227,7 @@ height: 289px;
   letter-spacing: 0.03em;
   color: var(--feature-text-color);
 }
-.footer{
-  height: 195px;
-}
+
 .footer {
  background: var(--section-bg-color);
 }
