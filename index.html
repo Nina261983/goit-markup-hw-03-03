@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https: //fonts.googleapis.com/css2? family = Raleway: wght @ 700 & family = Roboto: wght @ 400; 500; 700; 900 & display = swap "rel =" stylesheet ">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/styles.css"/>
     </head>
     
@@ -16,6 +17,7 @@
         <!--Top line bg-->
 
         <header class="header link">
+          <div class="container header-container">
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
             <nav class="nav">                                                                                                                                                                                                                                                                                                                                                                                                                                                            
                 <a class="logo" href="/">Web<span class="logo-studio">Studio</span></a>
@@ -25,23 +27,23 @@
                 <li class="navigation-item"><a class="navigation-link" href="./https://Контакты">Контакты</a></li>
                 </ul>
             </nav>
-         
-          
-              <ul class="header-list-contacts list">
-              <li class="contact-item"><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-              <li class="contact-item"><a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-              </ul>
-            
+            <div class="header-contacts">
            
-        </header>
+            <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </div>
+            </div>
+          </header>
 
         <!--Bg-->
 
         <main>
          
-           <section class="section-bg">                                            
+           <section class="section-bg">
+             <div class="container-bg">                                        
             <h1 class="big-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="button">Заказать услугу</button>
+            <button class="main-button-bg btn" type="button">Заказать услугу</button>
+          </div>
            </section>
          
 
@@ -89,7 +91,7 @@
 
              <section class="pro-section">
 
-               <h2 class="pro-title-team">Наша команда</h2>
+               <h2 class="title">Наша команда</h2>
 
                <ul class="pro-list list">
                <li class="pro-item"><img class="pro-img" src="./img/img 4 (1).jpg" alt="img4" width="270">
