@@ -19,21 +19,28 @@ ul {
 
 
 .container {
+  margin: 0;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  text-align: center; 
 
 }
 
-body {
+.body {
   font-family: Roboto, sans-serif;
   background: var(--container-item-bg-color);
 }
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .link {
   text-decoration: none;
+}
+.section-centered {
+  align-items: center; 
 }
 
 .header-link {
@@ -61,10 +68,13 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   margin-right: 93px;
+  margin-top: 24px;
  }
 .navigation-list {
   display: flex;
-  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  
 }
 .header-container {
   display: flex;
@@ -74,7 +84,9 @@ body {
 .header-contacts {
 margin-left: auto;
 display: flex;
-align-items: center;
+margin-top: 32px;
+margin-bottom: 32px;
+
 }
 .navigation-item:not(:last-child){
   margin-right: 50px;
@@ -105,6 +117,7 @@ a.navigation-link:focus {
   letter-spacing: 0.02em;
   color: var(--feature-text-color);
   margin-left: 50px;
+  
 }
 .contact-link:hover {
   color: var(--button-color);
@@ -116,25 +129,23 @@ a.navigation-link:focus {
 
 .section-bg {
   background: var(--section-bg-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
-
+  padding-bottom: 200px;
 }
 
 .big-title {
+  padding-top: 200px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--container-item-bg-color);
-  width:696px;
-  height:120px;
+ 
   
 }
 
 .main-button-bg {
+  
   width: 200px;
   height: 50px;
   background: var(--button-color);
@@ -143,13 +154,12 @@ a.navigation-link:focus {
 }
 
 .button {
+  margin-top: 30px;
+  padding-bottom: 200px;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   background: var(--button-color);
   color: var(--container-item-bg-color);
@@ -162,24 +172,30 @@ a.navigation-link:focus {
   background: var(--button-color);
   transition: 2s;
   box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%), 0 1px 3px 1px rgb(26 115 232 / 30%);
+  transform: scale(1.1,1.1);
 }
 
 .btn {
 font-weight: 700;
 font-size: 16px;
 line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 color: var(--container-item-bg-color);
 color: var(--container-item-bg-color);
 box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%),
 0 1px 3px 1px rgb(26 115 232 / 30%);
 }
+.feature-container{
+  display: flex;
+  text-align: center;
+  margin-top: 94px; 
+
+}
 
 .pro-section {
   background-color: var(--main-color);
+  padding-top: 94px;
+
 }
 
 .pro-img {
@@ -193,13 +209,18 @@ box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%),
   border-radius: 0px 0px 4px 4px;
 }
 
+
 .feature-title {
+  margin-bottom: 10px;
+  margin-top: 0px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--feature-title-color);
+  Width:270px;
+  Height:16px;
 }
 .feature-text {
   font-weight: 400;
@@ -207,9 +228,18 @@ box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%),
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--feature-text-color);
+  margin: right 30px;
+  margin-bottom: 94px;
+  Width:270px;
+  Height:75px;
+  
+}
+.work-section{
+  text-align: center;
 }
 
 .title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -217,13 +247,19 @@ box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%),
   letter-spacing: 0.03em;
   color: var(--feature-title-color);
 }
+
 .box-one {
   background: url(.jpg);
   mix-blend-mode: normal;
-}
+ }
+
+
 
 .pro-section {
   background: var(--main-color);
+  margin-top: 94px;
+  margin-bottom: 94px;
+  
 }
 
 .pro-item {
@@ -234,20 +270,24 @@ box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%),
 }
 
 .pro-title {
+ margin-bottom: 10px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--feature-title-color);
+ 
 }
 .pro-text {
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--feature-text-color);
+  
 }
 
 .main-button {
