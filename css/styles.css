@@ -23,24 +23,34 @@ padding: 0;
 margin: 0;
 width: 1200px;
 padding: 0 15px;
-  
 }
 
 .body {
 font-family: Roboto, sans-serif;
 background: var(--container-item-bg-color);
 }
+.img {
+  list-style: none;
+}
+
+
 .list {
 list-style: none;
 margin: 0;
 padding: 0;
 }
+
+
 .link {
 text-decoration: none;
 }
+
+
 .section-centered {
 align-items: center; 
 }
+
+
 .section {
 padding-top: 94px;
 padding-bottom: 94px;
@@ -189,7 +199,9 @@ border: transparent;
 
 .main-button-bg:hover {
 background: var(--button-color);
+transform: scale(1.02);
 }
+
 .btn {
 font-weight: 700;
 font-size: 16px;
@@ -199,25 +211,21 @@ color: var(--container-item-bg-color);
 box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%),
 0 1px 3px 1px rgb(26 115 232 / 30%);
 }
+
 .pro-section {
 background-color: var(--main-color);
 padding-top: 94px;
 }
 
-.pro-img {
-background: url(.jpg);
-border-radius: 0px;
+.pro-item {
+  max-width: 100%;
+  height: auto;
 }
-.pro-list {
-background: var(--container-item-bg-color);
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
-}
-.feature-list{
-display: flex;
-justify-content: center;
 
+.feature-list {
+display: flex;
+margin: 0;
+margin-right: 30px;
 }
 
 .feature-title {
@@ -231,6 +239,7 @@ text-transform: uppercase;
 color: var(--feature-title-color);
  
 }
+
 .feature-text {
 padding-top: 10px;
 width: 270px;
@@ -240,35 +249,42 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--feature-text-color);
 }
-.boxes{
+
+.boxes {
 display: flex;
-
-
 }
+
 .box-one{
-
-background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
-mix-blend-mode: normal;
-display:inline;
-margin-right: 30px;
-
+ margin-right: 30px;
 }
-.box-one:hover{
-  border: 3px solid var(--button-color); 
-}
-.box-one:focus{
-  border: 3px solid var(--button-color);  
-}
-
 .box{
   margin-right: 30px;
 }
+
+img:hover{
+  border: 3px solid var(--button-color); 
+}
+img:focus{
+  border: 3px solid var(--button-color);  
+}
+.card{
+  background: var(--container-item-bg-color);
+  display: flex;
+ 
+}
+.card:focus{
+  border: 1px solid var(--button-color); 
+}
+.card:hover{
+  border: 1px solid var(--button-color); 
+}
+
 .title {
+  text-align: center;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--feature-title-color);
 }
@@ -280,15 +296,17 @@ margin-right: 30px;
   
 }
 
-.pro-item {
-  background: var(--container-item-bg);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+
+.pro-img {
+margin-right: 30px;
+background: var(--container-item-bg);
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+0px 2px 1px rgba(0, 0, 0, 0.2);
+margin-bottom: 30px;
 }
 
 .pro-title {
- margin-bottom: 10px;
+ padding-bottom: 10px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.18;
@@ -298,7 +316,7 @@ margin-right: 30px;
  
 }
 .pro-text {
-
+ padding-bottom: 30px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
