@@ -22,7 +22,7 @@ padding: 0;
 
 
 .container {
-margin: 0;
+margin: 0 auto;
 width: 1200px;
 padding: 0 15px;
 }
@@ -46,9 +46,6 @@ padding: 0;
 .link {
 text-decoration: none;
 }
-a:hover {
-  text-decoration-color: var(--button-color);
-text-decoration: underline 0.15em;} 
 
 
 .activ:focus{
@@ -68,9 +65,9 @@ padding-bottom: 94px;
 
 .header-link {
 background: var(--container-item-bg-color);
-border-bottom: Solid
+border-bottom: 1px Solid
 #ECECEC;
-margin: 0;
+
 
 }
 
@@ -105,8 +102,8 @@ padding-left: 15px;
 }
 .navigation-list {
 display: flex;
-margin-top: 32px;
-margin-bottom: 32px;
+align-items: center;
+
   
 }
 .header-container {
