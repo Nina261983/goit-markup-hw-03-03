@@ -339,15 +339,16 @@ padding-bottom: 30px;
 .main-list {
 display: flex;
 justify-content: center;
-flex-wrap: wrap;
-padding-top: 94px;
-padding-bottom: 50px;
+margin: 0;
 }
 
 
 
-.main-item{
+.main-item:not(:last-child){
 margin-right: 8px;
+}
+.main-item{
+  margin: 0;
 }
 
 
@@ -368,8 +369,8 @@ cursor: pointer;
 border: transparent;
 }
 .main-button:hover {
-border: 2px solid var(--button-color);
-color: var(--feature-title-color);
+background: var(--button-color);
+color: var(--container-item-bg-color);
 }
 .main-button:focus {
 background: var(--button-color);
@@ -395,7 +396,7 @@ justify-content: center;
 }
 
 .item-bg:nth-child(3n) {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 .item-bg:nth-last-child(-n+3) {
