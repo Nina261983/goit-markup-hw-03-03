@@ -6,7 +6,7 @@
   --section-bg-color: #2f303a;
   --main-color: #f5f4fa;
   --body-color: #e5e5e5;
-  --solid-color:rgba(255, 255, 255, 0.6);
+  --solid-color:#EEEEEE;
  
 }
 
@@ -49,15 +49,6 @@ text-decoration: none;
 }
 
 
-.activ:focus{
-outline: 1px solid var(--button-color) /* Параметры рамки */;
-border: 1px solid #ECECEC; 
-}
-.activ:hover{
-outline: 1px solid var(--button-color) /* Параметры рамки */;
-border: 1px solid #ECECEC;
-}
-
 
 .section {
 padding-top: 94px;
@@ -68,11 +59,13 @@ padding-bottom: 94px;
 background: var(--container-item-bg-color);
 border-bottom: 1px Solid
 #ECECEC;
+
 }
 
  
 .nav {
 display: flex;
+
 }
 
 .logo-studio {
@@ -226,12 +219,16 @@ padding-top: 94px;
 display: flex;
 margin: 0;
 }
+
+
 .feature-item:not(:last-child){
   margin-right: 30px;
 }
+
 .feature-item {
   margin: 0;
   }
+
 
 .feature-title {
 padding-top: 0 94px;
@@ -258,12 +255,15 @@ color: var(--feature-text-color);
 .work-section{
   padding-top: 0;
 }
+
+
 .img{
   display: block;
   max-width: 100%;
   height: auto;
 
 }
+
 
 .boxes {
 display: flex;
@@ -273,6 +273,8 @@ align-items: center;
 .box {
  margin: 0;
   }
+
+
 .box:not(:last-child){
  margin-right: 30px;
   }
@@ -309,7 +311,6 @@ margin-right: 30px;
 
 .pro-img {
 text-align: center;
-
 padding-bottom: 30px;
 
 }
@@ -324,6 +325,7 @@ padding-bottom: 30px;
   color: var(--feature-title-color);
  
 }
+
 .pro-text {
   text-align: center;
  padding-bottom: 30px;
@@ -347,6 +349,8 @@ margin: 0;
 .main-item:not(:last-child){
 margin-right: 8px;
 }
+
+
 .main-item{
   margin: 0;
 }
@@ -368,10 +372,14 @@ color: var(--feature-title-color);
 cursor: pointer;
 border: transparent;
 }
+
+
 .main-button:hover {
 background: var(--button-color);
 color: var(--container-item-bg-color);
 }
+
+
 .main-button:focus {
 background: var(--button-color);
 color: var(--container-item-bg-color);
@@ -385,6 +393,13 @@ color: var(--container-item-bg-color);
 display: flex;
 flex-wrap: wrap;
 
+}
+
+.project {
+ padding: 20px 24px;
+ border-left: 1px solid var(--solid-color);
+ border-right: 1px solid var(--solid-color);
+ border-bottom:  1px solid var(--solid-color);
 }
 
 
