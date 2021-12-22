@@ -62,11 +62,7 @@ border-bottom: 1px Solid
 
 }
 
- 
-.nav {
-display: flex;
 
-}
 
 .logo-studio {
 color: var(--feature-title-color);
@@ -77,8 +73,8 @@ color: var(--container-item-bg-color);
 }
 
 .logo {
-align-items: center;
-justify-content: center;
+
+
 text-decoration: none;
 color: var(--button-color);
 font-family: Raleway, sans-serif;
@@ -91,12 +87,14 @@ letter-spacing: 0.03em;
 .navigation-list {
 display: flex;
 align-items: center;
+margin-left: 93px;
 
   
 }
 .header-container {
 display: flex;
 align-items: center;
+
   
 }
 .header-contacts {
@@ -113,7 +111,9 @@ margin-right: 50px;
 }
 
 .navigation-link {
-  
+ display: block;
+ padding-top: 32px;
+ padding-bottom: 32px; 
 text-decoration: none;
 font-weight: 500;
 font-size: 14px;
@@ -128,6 +128,7 @@ color: var(--button-color);
 a.navigation-link:focus {
 color: var(--button-color);
 }
+
 
 .contact-link {
 
