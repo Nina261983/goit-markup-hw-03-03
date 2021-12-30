@@ -91,6 +91,7 @@ letter-spacing: 0.03em;
 .navigation-list {
 display: flex;
 align-items: center;
+margin: 0;
 
   
 }
