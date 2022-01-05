@@ -301,6 +301,8 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 color: var(--feature-title-color);
 }
+
+
 .visually-hidden {
 position: absolute;
 clip: rect(0 0 0 0);
@@ -343,13 +345,13 @@ padding-bottom: 30px;
 }
 
 .pro-text {
-  text-align: center;
- padding-bottom: 30px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--feature-text-color);
+text-align: center;
+padding-bottom: 30px;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: var(--feature-text-color);
   
 }
 
