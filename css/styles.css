@@ -376,10 +376,6 @@ margin-right: 8px;
 
 
 
-.main-item {
-  margin: 0;
-  padding: 6px, 22px;
-}
 
 .visually-hidden{
   margin: 0;
@@ -402,7 +398,7 @@ border-radius: 4px;
 color: var(--feature-title-color);
 cursor: pointer;
 border: transparent;
-
+padding: 6px 22px;
 
 }
 
@@ -512,6 +508,10 @@ color: var(--container-item-bg-color);
 
 .footer-item:not(:last-child){
   margin-bottom: 9px;
+}
+
+.footer-adds-link{
+  color: var(--container-item-bg-color);  
 }
   
 
