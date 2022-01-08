@@ -363,7 +363,6 @@ color: var(--feature-text-color);
 display: flex;
 justify-content: center;
 margin: 0;
-
 }
 
 
@@ -375,9 +374,7 @@ margin-right: 8px;
 
 
 
-
-
-.visually-hidden{
+.visually-hidden {
   margin: 0;
 
 }
@@ -414,7 +411,7 @@ background: var(--button-color);
 color: var(--container-item-bg-color);
 }
 
-.item-section{
+.item-section {
   background: var(--main-color);
 }
 
